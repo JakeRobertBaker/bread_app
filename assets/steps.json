@@ -1,0 +1,108 @@
+{
+    "name": "Standard Method.",
+    "description": "A reasonable Sourdough",
+    "n_loaves": 2,
+    "steps": [
+        {
+            "name": "Make Levain",
+            "description": "Make the Levain that we add to the dough after autolayse.",
+            "minutes_after_previous_step": 0,
+            "ingredients": [
+                {
+                    "name": "Sourdough Starter",
+                    "units": "g",
+                    "amount": 35
+                },
+                {
+                    "name": "Whole Wheat Flour",
+                    "units": "g",
+                    "amount": 35
+                },
+                {
+                    "name": "All Purpose Flour",
+                    "units": "g",
+                    "amount": 35
+                },
+                {
+                    "name": "Water",
+                    "units": "g",
+                    "amount": 70
+                }
+            ]
+        },
+        {
+            "name": "Autolayse Dough",
+            "description": "Mix the Flour and Salt. Then add the Water and mix.",
+            "minutes_after_previous_step": 240,
+            "ingredients": [
+                {
+                    "name": "Good Bread Flour",
+                    "units": "g",
+                    "amount": 880
+                },
+                {
+                    "name": "Water",
+                    "units": "g",
+                    "amount": 590
+                },
+                {
+                    "name": "Sea Salt",
+                    "units": "g",
+                    "amount": 18
+                }
+            ]
+        },
+        {
+            "name": "Mix Dough, Levain and Water.",
+            "description": "Use the Levain from earlier. Mix into the dough with a litle water. Kned really well. Put the kneaded dough into a bowl and cover.",
+            "minutes_after_previous_step": 60,
+            "ingredients": [
+                {
+                    "name": "Levain",
+                    "units": "g",
+                    "amount": 175
+                },
+                {
+                    "name": "Water",
+                    "units": "g",
+                    "amount": 30
+                }
+            ]
+        },
+        {
+            "name": "Fold 1.",
+            "description": "The dough is already in the bowl. Fold it in the bowl and put the cover back.",
+            "minutes_after_previous_step": 15
+        },
+        {
+            "name": "Fold 2.",
+            "description": "The dough is already in the bowl. Fold it in the bowl and put the cover back.",
+            "minutes_after_previous_step": 15
+        },
+        {
+            "name": "Fold 3.",
+            "description": "The dough is already in the bowl. Fold it in the bowl and put the cover back.",
+            "minutes_after_previous_step": 15
+        },
+        {
+            "name": "Fold 4.",
+            "description": "The dough is already in the bowl. Fold it in the bowl and put the cover back.",
+            "minutes_after_previous_step": 30
+        },
+        {
+            "name": "Fold 5.",
+            "description": "The dough is already in the bowl. Fold it in the bowl and put the cover back.",
+            "minutes_after_previous_step": 30
+        },
+        {
+            "name": "Fold 6.",
+            "description": "After this final fols leave for bulk ferment after for 90 mins.",
+            "minutes_after_previous_step": 30
+        },
+         {
+            "name": "Shape Dough and Place in Fridge.",
+            "description": "Do the shaping. Put into a banetton and place in fridge covered.",
+            "minutes_after_previous_step": 90
+        }
+    ]
+}
