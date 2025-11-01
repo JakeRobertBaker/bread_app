@@ -1,16 +1,13 @@
-# bread_app
+# Bread Making App
 
-A new Flutter project.
+This App will be for android and ios as well if we can!
 
-## Getting Started
+The aim of this app is to produce a bread makers app with key timings and notifications.
 
-This project is a starting point for a Flutter application.
+The core recipie is in assets/steps.json. The timings of the steps with ingredients are specified.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This APP must
+- Produce an alarm when a step is due. The alarm will keep ringing util the user dismisses.
+- Let users rescale the n_loaves option for their cook. By default this equals 2.
+- When the user is in the App they can see a cool progress timer icon for each of the timers.
+- The user is able to scroll through the the steps, even to past and future steps.
